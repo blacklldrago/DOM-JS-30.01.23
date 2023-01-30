@@ -1,0 +1,49 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    outline: none;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+form input{
+    
+    outline: none;
+}
+.forward{
+    margin-left: 23px;
+}
+.list{
+    margin-top: 130px;  
+    margin-left: 500px;
+}
+.labe{
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 1s;
+    color: red;
+    background-color: black;
+    transform: scale(1.1);
+}
+.header{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 20px;
+}
+.forward1{
+    margin-left: 5px;
+}
